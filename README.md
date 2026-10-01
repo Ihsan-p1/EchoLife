@@ -1,6 +1,6 @@
-# Last-Signal: a dead man's switch Discord bot
+# EchoLife: a dead man's switch Discord bot
 
-Last-Signal watches for a check-in. The owner runs `!alive` from time to time. If that
+EchoLife watches for a check-in. The owner runs `!alive` from time to time. If that
 stops happening, the bot sends reminders, and once the deadline passes it notifies a list
 of emergency contacts by DM and posts an alert embed in every registered channel.
 
@@ -55,8 +55,8 @@ The bot needs the Message Content privileged intent, which is toggled per applic
 the portal. Without it the prefix commands never fire.
 
 ```bash
-git clone https://github.com/Ihsan-p1/Last-Signal.git
-cd Last-Signal
+git clone https://github.com/Ihsan-p1/EchoLife.git
+cd EchoLife
 
 python -m venv .venv
 .venv\Scripts\activate          # Windows
@@ -92,7 +92,7 @@ python deadman_Bot/bot.py
 ## Project structure
 
 ```
-Last-Signal/
+EchoLife/
 ├── deadman_Bot/
 │   ├── bot.py                 # All bot logic: commands, the 6-hour loop, alert embed
 │   ├── data.example.json      # Template for the state file
