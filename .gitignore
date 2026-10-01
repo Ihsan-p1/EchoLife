@@ -16,3 +16,10 @@ __pycache__/s
 Thumbs.db
 Desktop.ini
 
+
+# AI assistant files, local only
+CLAUDE.md
+.claude/
+docs/superpowers/
+AUDIT.md
+docs/handoff.md
